@@ -1,1 +1,3 @@
-# flutter-hotelpro
+# flutter_hotelpro
+
+A new Flutter project.
