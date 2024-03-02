@@ -15,7 +15,6 @@ class SelectableButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Color backgroundColor = selected ? Colors.black : const Color.fromRGBO(245, 245, 245, 50);
-    Color textColor = selected ? Colors.white : Colors.black;
 
     return ElevatedButton(
       onPressed: onPressed,

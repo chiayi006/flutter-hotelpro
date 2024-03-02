@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_hotelpro/searchpage.dart';
 import 'package:flutter_hotelpro/widget/buttons.dart';
-import 'package:flutter_hotelpro/widget/hotelview.dart';
+import 'package:flutter_hotelpro/widget/hotel_horizontal.dart';
 import 'package:flutter_hotelpro/widget/titlewidget.dart';
 
 class Page2 extends StatelessWidget {
@@ -16,6 +15,7 @@ class Page2 extends StatelessWidget {
           Stack(
             children: [
               Container(
+                width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height * 0.3,
                 child: Image.asset(
                   'assets/images/city.jpg',
@@ -32,12 +32,7 @@ class Page2 extends StatelessWidget {
                     hintText: 'London, England ',
                     filled: true,
                   ),
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => SearchPage()),
-                    );
-                  },
+                  onTap: () {},
                 ),
               ),
             ],
@@ -53,14 +48,14 @@ class Page2 extends StatelessWidget {
                   subtitle:
                       'One of a kind places to stay, now bookable directly in HotelPro',
                 ),
-                HotelView(),
+                HotelHorizontal(),
                 SizedBox(height: 20),
                 TitleWidget(
                   title: 'Best Boutique Hotels in AirBnB',
                   subtitle:
                       'One of a kind places to stay, now bookable directly in HotelPro',
                 ),
-                HotelView(),
+                HotelHorizontal(),
                 SizedBox(height: 20),
               ],
             ),
