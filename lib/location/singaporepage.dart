@@ -73,7 +73,7 @@ class SingaporePage extends StatelessWidget {
                 children: [
                   SizedBox(height: 10),
                   TitleWidget(
-                    title: 'Bali Hotel - Refundable',
+                    title: 'Singapore Hotel - Refundable',
                     subtitle:
                         'One of a kind places to stay, now bookable directly in HotelPro',
                   ),
@@ -88,7 +88,7 @@ class SingaporePage extends StatelessWidget {
                 children: [
                   SizedBox(height: 10),
                   TitleWidget(
-                    title: 'Bali Hotel - 5 Stars',
+                    title: 'Singapore Hotel - 5 Stars',
                     subtitle:
                         'One of a kind places to stay, now bookable directly in HotelPro',
                   ),
@@ -103,7 +103,7 @@ class SingaporePage extends StatelessWidget {
                 children: [
                   SizedBox(height: 10),
                   TitleWidget(
-                    title: 'Bali Hotel - 4 Stars',
+                    title: 'Singapore Hotel - 4 Stars',
                     subtitle:
                         'One of a kind places to stay, now bookable directly in HotelPro',
                   ),
@@ -118,7 +118,7 @@ class SingaporePage extends StatelessWidget {
                 children: [
                   SizedBox(height: 10),
                   TitleWidget(
-                    title: 'Bali Hotel - Lower Price',
+                    title: 'Singapore Hotel - Lower Price',
                     subtitle:
                         'One of a kind places to stay, now bookable directly in HotelPro',
                   ),
@@ -133,7 +133,7 @@ class SingaporePage extends StatelessWidget {
                 children: [
                   SizedBox(height: 10),
                   TitleWidget(
-                    title: 'Bali Hotel - Higher Price',
+                    title: 'Singapore Hotel - Higher Price',
                     subtitle:
                         'One of a kind places to stay, now bookable directly in HotelPro',
                   ),
