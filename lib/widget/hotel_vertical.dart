@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hotelpro/introduce.dart';
-// Import the IntroduceHotel page
 
 class HotelVertical extends StatelessWidget {
   HotelVertical({Key? key}) : super(key: key);
