@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  device_preview:
 
 dev_dependencies:
   flutter_test:
